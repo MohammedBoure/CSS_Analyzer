@@ -43,3 +43,5 @@
 - Tested on the `EduConnect-FrontEnd` project, successfully processing 10 CSS files in `admin/css` (591 rules, 91 duplicates) and 11 files in `css` (342 rules, 37 duplicates), with no errors.
 - Users can exclude irrelevant directories (e.g., `node_modules`, `.git`) and specific CSS files using `--exclude-dirs` and `--exclude-files`.
 - The tool is part of the `CSS_Analyzer` repository (https://github.com/MohammedBoure/CSS_Analyzer).
+
+
