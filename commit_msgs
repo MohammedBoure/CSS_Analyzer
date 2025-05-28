@@ -1,0 +1,10 @@
+
+-----
+
+Initial commit: CSS Duplicate Rules Analyzer with recursive directory scanning
+
+- Added main.py: A Python tool to recursively scan directories for CSS files, identify duplicate rules, and generate shared_rules.css in directories with duplicates.
+- Implemented support for modern CSS properties (flex, grid, rem, var()) using cssutils with disabled validation.
+- Included README.md with detailed documentation, including installation, usage, example output, and troubleshooting.
+- Added Arabic summary in README for accessibility.
+- Configured debugging output for parsed files, rule counts, and duplicate detection.
