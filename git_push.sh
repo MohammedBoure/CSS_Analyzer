@@ -3,9 +3,6 @@
 # 1. Stage all files
 git add .
 
-# 2. Unstage the commit_msg file (if it was staged)
-git reset commit_msg
-
 # 3. Remove all __pycache__ directories from staging (without deleting actual files)
 find . -type d -name "__pycache__" -exec git rm -r --cached {} +
 
